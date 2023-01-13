@@ -57,6 +57,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Bharath</h1>
       <h1>{count}</h1>
       <button onClick={() => setCount((prev) => prev + 1)}>Add</button>
       <button onClick={addTwo}>Add Two</button>
